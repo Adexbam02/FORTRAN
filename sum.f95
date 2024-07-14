@@ -10,5 +10,5 @@ program sum
 
     answer = x + y
 
-    print *, answer
+    print *, 'The answer is equal to', answer
 end program sum
