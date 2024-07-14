@@ -5,11 +5,7 @@ program translateOne
 
     print *, 'Input the variables:'
 
-    read *, G
-    read *, M
-    read *, E
-    read *, R
-    read *, F
+    read *, G, M, E, R, F
 
     !This is the translated version of GME/R^2
     F = G*M*E/(R ** 2)
