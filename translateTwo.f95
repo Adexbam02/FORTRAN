@@ -1,7 +1,7 @@
 program translateTwo
     implicit none
 
-    real :: a, b, ans
+    real a, b, ans
 
     print *, 'Input the variables:'
     read *, a, b
