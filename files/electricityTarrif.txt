@@ -1,0 +1,5 @@
+"Ahmed, A B" 200
+"Baker, C D" 500
+"Essop, S A" 700
+"Jansen, G M" 1000
+"Smith, Q G" 1500

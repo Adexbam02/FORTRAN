@@ -2,7 +2,7 @@ program translate
     implicit none
     
     ! Variables Declaration
-    real :: G, M, E, R, W, C, L, a, b, µ
+    real :: G, M, E, R, W, C, L, a, b, u
 
     (G * M * E) / R
 
@@ -12,7 +12,7 @@ program translate
 
     (exp(3 * t) + (t**2 * sin(4 * t))) * cos(3 * t)**2
 
-    E / ((R**2 + ((2 * µ * W * L) - 1) / (2 * µ * W * C)**2))**0.5
+    E / ((R**2 + ((2 * u * W * L) - 1) / (2 * u * W * C)**2))**0.5
 end program translate
 
 !Bamidele
