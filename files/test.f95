@@ -1,12 +1,13 @@
 program fortrantut
 
     implicit none
-    character(len=30) name
+    real :: I
+    integer :: A, X
 
-    print*, "What's your name?"
+    A = 0; I = 1; X =0
 
-    read*, name
-
-    print*, "Hello ", name
+    A = A + I
+    X = X * (I/A)
+    A = A + I
 
 end program fortrantut

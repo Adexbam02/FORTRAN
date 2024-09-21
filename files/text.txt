@@ -1,0 +1,13 @@
+Some Guidelines:
+
+! - It is called Comment. Anywhere it precedes a code or statement, it means 
+that the particular line of code won't be executed no matter what.
+
+implicit none - This should start every one of your codes and should always 
+be used. It prevents the compiler from confusing variables and names.
+
+open(1, file = "title.txt") - Anytime you encounter a line of code like this, 
+you should create a file with the specified name, e.g., payroll.txt.
+
+Goodluck!
+Nurain Bamidele G.
