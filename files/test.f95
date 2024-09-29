@@ -1,13 +1,17 @@
 program fortrantut
 
     implicit none
-    real :: I
-    integer :: A, X
+    real :: period
+    integer :: rate, balance, month
 
-    A = 0; I = 1; X =0
+    rate = 0.02
+    balance = 50
+    period = 12
 
-    A = A + I
-    X = X * (I/A)
-    A = A + I
+    do month = 1, 12
+        balance = (rate + balance) * balance
+
+        print*, month, balance
+    end do
 
 end program fortrantut

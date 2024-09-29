@@ -1,1 +1,1 @@
-print*, i, cos(x), sin(x)
+3
